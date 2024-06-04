@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.container1 {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.container1 .top-headers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.data-side p {
+    margin-bottom: 0 !important;
+}
+
+.container1 .top-headers .data-side {
+
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+}
+
+.container1 .top-headers .data-side i {
+    color: white;
+}
+
+.container1 .top-headers .account-side ul {
+    display: flex;
+
+    gap: 30px;
+}
+
+.container1 .top-headers .account-side ul {
+    list-style: none;
+}
+
+.container1 .top-headers .account-side ul li a {
+    text-decoration: none;
+    color: #999999;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container1 .top-headers .account-side ul li i {
+    color: #999999;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.head:hover {
+    opacity: 0.5;
+    transition: all .5s ease;
+}
+
+.link:hover .head {
+    color: red;
+    opacity: 0.5;
+    transition: all .5s ease;
+}
+
+.nav-container {
+    background-color: white;
+}
+
+.nav-container .row .col .main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112.8px;
+}
+
+.nav-container .row .col .main-menu .menu-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    margin-left: 80px;
+}
+.nav-container .row .col .main-menu .menu-left .bar-icon i{
+    color: black;
+    font-size: 25px;
+}
+.karusel1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.karusel1 h4 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 8px;
+}
+
+.karusel1 h1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #222222;
+    letter-spacing: 3px;
+}
+
+
+
+
+.karusel1 .shop-btn {
+    position: absolute;
+    top: 52%;
+    left: 12%;
+}
+
+.shop-btn {
+    --color: #fe4c3b;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+}
+
+.shop-btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.shop-btn:hover {
+    color: #fff;
+}
+
+.shop-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.shop-btn:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.shop-btn:active:before {
+    background: #3a0ca3;
+    /* transition: background 0s; */
+}
+
+.karusel1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.karusel2 h4 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 8px;
+}
+
+.karusel2 h1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #222222;
+    letter-spacing: 3px;
+}
+
+.karusel2 .shop-btn {
+    position: absolute;
+    top: 52%;
+    left: 12%;
+}
