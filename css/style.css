@@ -224,3 +224,119 @@ header {
     top: 52%;
     left: 12%;
 }
+
+#discount-section{
+    padding-top: 70px;
+    padding-bottom: 0 !important;
+}
+.discountpart1{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: 90px;
+    padding-right: 70px;
+    overflow: hidden;
+}
+.discountpart1 a .discountimg1{
+    transition: all 0.9s ease;
+}
+.discountpart1:hover .discountimg1{
+    transform: scale(1.1);
+}
+#discount-section .discountpart1 h4{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fe4c3b;
+    letter-spacing: 4px;
+}
+#discount-section .discountpart1 h2{
+    position: absolute;
+    top: 45%;
+    right: 17%;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #222222;
+    letter-spacing: 4px;
+    margin-bottom: -6px;
+}
+
+.discountpart2{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    padding-right: 70px;
+}
+
+#discount-section .discountpart2 h4{
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fe4c3b;
+    letter-spacing: 4px;
+}
+#discount-section .discountpart2 h2{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #222222;
+    letter-spacing: 4px;
+    margin-bottom: -6px;
+}
+.discountpart2 a .discountimg2{
+    transition: all 0.9s ease;
+}
+.discountpart2:hover .discountimg2{
+    transform: scale(1.1);
+}
+.partition2{
+    display: flex;
+}
+.specialoffer{
+    text-align: center;
+    margin-top: 50px;
+}
+.specialoffer h4{
+    color: #fe4c3b;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.specialoffer h2{
+    font-size: 36px;
+    color: #222;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .02em;
+}
+.specialoffer hr{
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    background-color:orangered;
+    border-style: none;
+    margin-top: 2px;
+}
+.specialoffer p{
+    font-family: "Lato", sans-serif;
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    line-height: 24px;
+    letter-spacing: .05em;
+    margin-top: 0px;
+}
